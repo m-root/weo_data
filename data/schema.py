@@ -1,0 +1,39 @@
+from pydantic import BaseModel
+
+
+class PredictionModel(BaseModel):
+    current_account_balance: float
+    current_account_balance_percent_gdp: float
+    average_consumer_prices_inflation: float
+    gross_national_savings: float
+    continent: int
+    output_gap_in_percent_of_potential_gdp: float
+    ppp_conversion_factor: float
+    gdp_in_current_prices: float
+    gross_domestic_product_corresponding_to_fiscal_year: float
+    inflation_average_consumer_prices: float
+    inflation_end_of_period_consumer_prices: float
+    six_month_london_interbank_offered_rate: float
+    volume_of_imports_of_goods: float
+    volume_of_imports_of_goods_and_services: float
+    volume_of_exports_of_goods: float
+    volume_of_exports_of_goods_and_services: float
+    unemployment_rate: float
+    employment: float
+    population: float
+    general_government_revenue: float
+    general_government_revenue_as_percent_of_gdp: float
+    general_government_total_expenditure: float
+    general_government_total_expenditure_as_percent_of_gdp: float
+    general_government_net_lending_borrowing: float
+    general_government_net_lending_borrowing_as_percent_of_gdp: float
+    general_government_structural_balance: float
+    general_government_structural_balance_as_percent_of_potential_gdp: float
+    general_government_primary_net_lending_borrowing: float
+    general_government_primary_net_lending_borrowing_as_percent_of_gdp: float
+    general_government_net_debt: float
+    general_government_net_debt_as_percent_of_gdp: float
+    general_government_gross_debt: float
+    general_government_gross_debt_as_percent_of_gdp: float
+    gross_domestic_product_corresponding_to_fiscal_year_current_prices: float
+    consumer_price_index_end_of_period: float
