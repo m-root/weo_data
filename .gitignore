@@ -1,3 +1,10 @@
 /venv/
 /trained_data/
 /images/
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/aai_labs.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
