@@ -21,7 +21,7 @@ with open(mapping_dict_path) as f:
 app = Flask(__name__)
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict_one', methods=['POST'])
 def predict():
     try:
         # Validate request data
